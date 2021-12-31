@@ -1,0 +1,98 @@
+CNC art
+-------
+rabbit: CC0, https://publicdomainvectors.org/en/free-clipart/Rabbit/35622.html
+dog: CC0, https://publicdomainvectors.org/en/free-clipart/Dog-portrait-vector-drawing/12093.html
+face: CC0, https://publicdomainvectors.org/en/free-clipart/Vector-graphics-of-mans-normal-face/28404.html
+
+3D printer art
+--------------
+cat: GPLv2, https://www.thingiverse.com/thing:24255/files
+boat: CC BY 4.0, https://www.thingiverse.com/thing:2763479/files
+cube: CC0, https://www.thingiverse.com/thing:38108/files
+bunny: CC BY 4.0, https://www.thingiverse.com/thing:2763479/files
+
+Color Palette
+-------------
+CC BY-SA 4.0, https://stackoverflow.com/a/33295456
+
+Paint Brush
+-----------
+CC0, https://publicdomainvectors.org/en/free-clipart/Paint-brush-vector-drawing/15461.html
+
+Icon
+----
+CC0, https://openclipart.org/detail/160057/machine-controlblue
+
+Menu Background
+---------------
+CC0, https://commons.wikimedia.org/wiki/File:Printer_3D_Bioprinting_Solutions.jpg
+
+Interior Skybox
+---------------
+Walls, CC0, https://ambientcg.com/view?id=Bricks059
+Ceiling, CC0, https://ambientcg.com/view?id=OfficeCeiling001
+Floor, CC0, https://ambientcg.com/view?id=Tiles078
+
+Skybox Mod
+----------
+* Code: LGPLv2.1
+
+Copyright (C) 2017 - Auke Kok <sofar@foo-projects.org>
+
+Contributors:	
+    sofar
+    LoneWolfHT
+    auouymous
+    Maverick2797
+
+* Artwork (textures):
+
+SkyboxSet by Heiko Irrgang ( http://gamvas.com ) is licensed under
+the Creative Commons Attribution-ShareAlike 3.0 Unported License.
+Based on a work at http://93i.de.
+
+Mapfix Mod
+----------
+Made by wsor.
+License: GPLv3
+
+Worldedit Mod
+-------------
+Copyright (c) 2012 sfan5, Anthony Zhang (Uberi/Temperest), and Brett O'Donnell (cornernote).
+License: AGPL-3.0
+
+Contributors:
+	Alexander Weber
+	ANAND
+	beyondlimits
+	Carter Kolwey
+	cornernote
+	Cy
+	Daniel Sosa
+	electricface
+	est31
+	Eugen Wesseloh
+	h3ndrik
+	HybridDog
+	Isidor Zeuner
+	Jean-Patrick Guerrero
+	Joseph Pickard
+	kaeza
+	kilbith
+	KodexKy
+	Kyle
+	MT-Modder
+	Niwla23
+	Panquesito7
+	Pedro Gimeno
+	Rui
+	Sebastien Ponce
+	sfan5
+	ShadowNinja
+	shivajiva101
+	spillz
+	Starbeamrainbowlabs
+	TalkLounge
+	tenplus1
+	Uberi/Temperest
+	Wuzzy

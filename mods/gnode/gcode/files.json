@@ -1,0 +1,32 @@
+{
+   "files":[
+      {
+         "name":"dog.gcode",
+         "type":"cut"
+      },
+      {
+         "name":"rabbit.gcode",
+         "type":"cut"
+      },
+	  {
+         "name":"face.gcode",
+         "type":"cut"
+      },
+	  {
+         "name":"cat.gcode",
+         "type":"print"
+      },
+	  {
+         "name":"boat.gcode",
+         "type":"print"
+      },
+	  {
+         "name":"cube.gcode",
+         "type":"print"
+      },
+	  {
+         "name":"bunny.gcode",
+         "type":"print"
+      }
+   ]
+}  
