@@ -16,7 +16,8 @@ More information is available here: <a href="https://wiki.minetest.net/Games#Ins
 
 Some example gcode files are provided.
 Additional files can be placed in the directory 'mods/gnode/gcode'.
-If the file names are added to files.json in this directory, a button will be added to the GUI for that file.
+If the file names are added to files.json in this directory,
+a button will be added to the GUI for that file.
 Otherwise the file can be used via commands.
 
 Available commands are as follows:
@@ -29,7 +30,8 @@ Available commands are as follows:
 '/output': Toggles the display of job info.
 '/paint_color <number>': Changes the paint brush color. Options are 0 to 255. Zero is the default color.
 
-The <a href="https://archive.vectric.com/support/intro-to-cnc/workflow.html">workflow</a> used to create gcode files for GNode is the same as if you were using a real CNC router or 3D printer.
+The <a href="https://archive.vectric.com/support/intro-to-cnc/workflow.html">workflow</a> used to create gcode files for GNode 
+is the same as if you were using a real CNC router or 3D printer.
 
 <h1>Engraving</h1>
 <img src="https://www.dropbox.com/s/jou3h8ck9l6jr6f/cnc_face.png?raw=true" alt="GNode"><img src="https://www.dropbox.com/s/9hxmzxsbjmvlxfw/cnc_rabbit.png?raw=true" alt="GNode">
@@ -85,7 +87,7 @@ CNC art
 -------
 rabbit: CC0, <a href=https://publicdomainvectors.org/en/free-clipart/Rabbit/35622.html>https://publicdomainvectors.org/en/free-clipart/Rabbit/35622.html</a>
 dog: CC0, <a href=https://publicdomainvectors.org/en/free-clipart/Dog-portrait-vector-drawing/12093.html>https://publicdomainvectors.org/en/free-clipart/Dog-portrait-vector-drawing/12093.html</a>
-face: CC0, <a href=https://publicdomainvectors.org/en/free-clipart/Vector-graphics-of-mans-normal-face/28404.html>https://publicdomainvectors.org/en/free-clipart/Vector-graphics-of-mans-normal-face/28404.html</a>
+face: CC0, <a href=https://publicdomainvectors.org/en/free-clipart/Vector-graphics-of-mans-normal-face/28404.html>https://publicdomainvectors.org/en/free-clipart/face/28404.html</a>
 
 3D printer art
 --------------
