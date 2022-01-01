@@ -5,7 +5,7 @@ GNode reads <a href="https://en.wikipedia.org/wiki/G-code">gcode</a> files and s
 
 GNode was created using a voxel game engine called <a href="https://www.minetest.net/">Minetest</a>.
 
-A stand-alone version of GNode can be downloaded here: <a href="https://github.com/Droog71/gnode/releases/tag/v1.0.0">stand-alone download</a>
+A stand-alone version of GNode can be downloaded here: <a href="https://github.com/Droog71/gnode/releases">stand-alone download</a>
 To run GNode, simply extract the contents of the downloaded file
 and run start.bat (windows) or start.sh (linux).
 
