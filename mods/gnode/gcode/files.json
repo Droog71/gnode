@@ -13,6 +13,10 @@
          "type":"cut"
       },
 	  {
+         "name":"square.gcode",
+         "type":"cut"
+      },
+	  {
          "name":"cat.gcode",
          "type":"print"
       },

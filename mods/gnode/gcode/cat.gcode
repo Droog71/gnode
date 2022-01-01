@@ -15,7 +15,7 @@
 ; single wall width = 0.56mm
 
 M104 S180 ; set temperature
-M92 X78.7402 Y78.7402 E926 ;Set the right speed
+M92 X78.7402 Y78.7402 E-1
 G28 ;home all axes
 M106 ;turn fan on
 M109 S180 ; wait for temperature to be reached
@@ -24,7 +24,7 @@ G21 ; set units to millimeters
 G92 E0 ; reset extrusion distance
 M82 ; use absolute distances for extrusion
 M106 S254
-G1 Z0.100 F5400.000
+G0 Z0.100 F5400.000
 G1 X94.574 Y95.403
 G1
 G1 X94.746 Y95.307 F360.000 E0.00156

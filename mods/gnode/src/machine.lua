@@ -208,16 +208,23 @@ minetest.register_globalstep(function(dtime)
                     if height_to_depth then 
                         machine_pos.y = machine_pos.y - depth_offset 
                     end
-                    for height = machine_pos.y, 1, 1 do
-                        minetest.remove_node(vector.new(machine_pos.x, height, machine_pos.z))
+                    local next_pos = machine_path[path_index + 1]
+                    local x_dir = next_pos.x >= machine_pos.x and 1 or -1
+                    for x = machine_pos.x,next_pos.x,x_dir do
+                        local z_dir = next_pos.z >= machine_pos.z and 1 or -1
+                        for z = machine_pos.z,next_pos.z,z_dir do
+                            for height = machine_pos.y, 1, 1 do
+                                minetest.remove_node(vector.new(x, height, z))
+                            end
+                        end
                     end
                 elseif machine_motion[path_index] == 1 and machine_extrusion[path_index] >= 0 then
                     local next_pos = machine_path[path_index + 1]
                     if next_pos then
                         if next_pos.y == machine_pos.y then
-                            local x_dir = next_pos.x > machine_pos.x and 1 or -1
+                            local x_dir = next_pos.x >= machine_pos.x and 1 or -1
                             for x = machine_pos.x,next_pos.x,x_dir do
-                                local z_dir = next_pos.z > machine_pos.z and 1 or -1
+                                local z_dir = next_pos.z >= machine_pos.z and 1 or -1
                                 for z = machine_pos.z,next_pos.z,z_dir do
                                     minetest.set_node(vector.new(x,next_pos.y,z),{name="gnode:plastic"})
                                 end
